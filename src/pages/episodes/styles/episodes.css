@@ -1,0 +1,44 @@
+.episode-tile .ant-card-head-title {
+  color: rgb(223, 212, 212);
+}
+.episode-tile {
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+  margin: 10px;
+  background-color: #2b2d42;
+  color: #f0e3ff;
+  border-radius: 10px;
+  overflow: hidden;
+  font-weight: bolder;
+}
+
+.episode-tile h3 {
+  font-size: 1.2rem;
+  margin: 10px;
+}
+
+.episode-tile p {
+  margin: 10px;
+}
+.episode-tile:hover {
+  transform: scale(1.1);
+  transition: all 0.3s ease;
+}
+@media screen and (max-width: 1200px) {
+  .episode-tile {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .episode-tile {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .episode-tile {
+    width: 100%;
+  }
+}

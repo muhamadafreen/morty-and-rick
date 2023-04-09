@@ -1,0 +1,111 @@
+/* CharactersPage styles */
+.characters-page {
+  background-color: #e8f0fe;
+  padding: 20px;
+}
+
+.characters-page h1 {
+  color: #333333;
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+/* Character styles */
+.character {
+  background-color: #333333;
+  color: #f2f2f2;
+  padding: 20px;
+  border-radius: 8px;
+  text-align: center;
+  transition: transform 0.2s ease-in-out;
+  overflow: hidden;
+}
+
+.character:focus-within,
+.character:hover {
+  transform: scale(1.05);
+}
+
+.character-inner {
+  transition: transform 0.2s ease-in-out;
+}
+
+.character:focus-within .character-inner,
+.character:hover .character-inner {
+  transform: scale(1.1);
+}
+
+.character-image {
+  padding: 20px; /* increase the size of the hover area */
+}
+
+.character img {
+  width: 50%;
+  max-width: 200px;
+  border-radius: 50%;
+  margin-bottom: 10px;
+  transition: transform 0.2s ease-in-out;
+}
+
+.page-btns {
+  text-align: right;
+  margin: 2rem 1rem;
+
+}
+
+.characters-page h1{
+text-align: center;
+color: #5c5757;
+}
+
+.loader{
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  font-size: 4vh;
+  color: rgb(158, 101, 27);
+}
+
+
+.no-characters{
+  text-align: center !important;
+  margin-left: 35%;
+}
+
+@media screen and (min-width: 576px) {
+  .character img {
+    width: 60%;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .character img {
+    width: 70%;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .character img {
+    width: 80%;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .character img {
+    width: 90%;
+  }
+}
+
+.character h2 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.character p {
+  font-size: 18px;
+  margin-bottom: 5px;
+}

@@ -1,0 +1,98 @@
+.layout {
+  height: 100vh;
+  background-color: #F3EFEF ;
+}
+
+.header{
+  background-color: rgba(238, 231, 228, 0.647);
+}
+
+.logo {
+  display: inline-block;
+  float: left;
+  margin-right: 500px;
+   height: 100%;
+   border: 2px solid rgb(168, 134, 134);
+}
+
+.images{
+   display: inline-block;
+   height: 100%; 
+}
+
+.menu {
+  float: right;
+  font-size: 16px;
+   line-height: 64px;
+   background-color: #F3EFEF;
+}
+
+.menu .ant-menu-item {
+  padding: 0 20px;
+  color: #fff;
+}
+
+.menu .ant-menu-item:hover,
+.menu .ant-menu-item-selected {
+  color: #9aa1a6;
+  border-bottom: 2px solid #8b949d;
+}
+.header {
+  height: 80px;
+  padding: 0 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.layout {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.site-layout-content {
+  flex: 1;
+}
+
+
+.footer {
+
+  margin-top: auto;
+  text-align: center;
+}
+
+.layout {
+  background-color: #fcf6f5; /* change the background color of the layout */
+  height: 100vh;
+}
+
+.menu .ant-menu-item-selected {
+  color: #ffffff; /* change the font color of the selected menu item */
+  background-color: #dfbbb1; /* change the background color of the selected menu item */
+  border-bottom: none; /* remove the blue border-bottom */
+}
+
+.menu .ant-menu-item:hover,
+.menu .ant-menu-item-selected {
+  color: #666666; /* change the font color of the menu item on hover */
+  border-bottom: none; /* remove the blue border-bottom */
+}
+
+.header {
+  height: 80px;
+  padding: 0 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fcf6f5; /* change the background color of the header */
+}
+
+.menu .ant-menu-item {
+  padding: 0 20px;
+  color: #666666 !important; /* change the font color of the menu item */
+}
+
+.menu-item {
+  color: red        ;
+ border: 2px solid #fff;
+}

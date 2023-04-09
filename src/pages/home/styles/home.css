@@ -1,0 +1,65 @@
+.home-container {
+  height: 100% ;
+   background-color: rgb(51, 39, 23);
+}
+
+.home-background {
+ 
+  height: 60vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  filter: brightness(1.5);
+  /* Fallback for older browsers */
+  filter: progid:DXImageTransform.Microsoft.BasicImage(brightness=200);
+
+
+}
+
+.home-overlay {
+  height: 100%;
+  /* background-color: rgba(0, 0, 0, 0.6); */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.home-content {
+  text-align: center;
+}
+.home-content h1 {
+ color: #d49900;
+font-size:2rem;
+}
+
+.home-content p {
+ color: #ba9ca4;
+font-size:1.2rem;
+}
+
+.home-buttons {
+  text-align: center;
+  margin-top: 60px;
+}
+
+.home-button {
+  margin-right: 10px;
+  font-size: 1.5rem;
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: none;
+  background-color: #f4b400;
+  color: #fff;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.home-button:hover {
+  background-color: #d49900;
+}
+
+
+
+
+
+

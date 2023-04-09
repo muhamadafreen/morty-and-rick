@@ -1,0 +1,30 @@
+
+.ant-dropdown-link {
+  display: inline-block;
+  padding: 8px 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  color: #777;
+  font-weight: bold;
+}
+
+.ant-dropdown-link:hover {
+  border-color: #1890ff;
+  color: #1890ff;
+}
+
+.ant-dropdown-menu {
+  padding: 8px;
+  border-radius: 4px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+  background-color: #fff;
+}
+
+.ant-dropdown-menu-item {
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+.ant-dropdown-menu-item:hover {
+  color: #6f7174;
+}
