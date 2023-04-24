@@ -1,0 +1,35 @@
+.not-found-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.not-found-container img {
+  width: 100%;
+  max-width: 500px;
+  height: 550px;
+  
+}
+
+.not-found-container h1 {
+  font-size: 2.5rem;
+  margin-bottom: .5rem;
+  text-align: center;
+  color: chocolate;
+}
+
+.not-found-container p {
+  font-size: 1.5rem;
+  margin-bottom: 1.5rem;
+  text-align: center;
+  color: rgb(94, 78, 14);
+}
+
+.back-home-link {
+  font-size: 1.5rem;
+  text-align: center;
+  color: rgb(242, 243, 236);
+
+}

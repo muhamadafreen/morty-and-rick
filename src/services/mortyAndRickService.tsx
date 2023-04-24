@@ -45,7 +45,7 @@ export default function useMortyAndrickService() {
     if (data) {
       return {
         status: true,
-        message: "Episodes listed successfully",
+        message: "Characters listed successfully",
         data: data,
       };
     }

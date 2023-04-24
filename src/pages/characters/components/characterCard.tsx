@@ -21,22 +21,6 @@ const Character: React.FC<CharacterProps> = ({ character }) => {
         </p>
       </div>
     </Card>
-    // <Card style={{ width: 300 }}>
-    //   <img
-    //     src={character.image}
-    //     alt={character.name}
-    //     style={{ width: "100%" }}
-    //   />
-    //   <Paragraph>
-    //     <strong>{character.name}</strong>
-    //   </Paragraph>
-    //   {/* <Paragraph>
-    //      {character.gender}
-    //   </Paragraph>
-    //   <Paragraph>
-    //      {character.species}
-    //   </Paragraph> */}
-    // </Card>
   );
 };
 
